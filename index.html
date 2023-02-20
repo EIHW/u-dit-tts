@@ -1,0 +1,55 @@
+<p>&nbsp;</p>
+<p>      </p>
+<div class="container"><header role="banner"></header>
+<article><br />
+<h1 align="center"><span style="font-size: 200%;">U-Diffusion Vision Transformer for Text-to-Speech</span></h1>
+<br />
+<p style="line-height: 1;" align="center"><strong> Xin Jing<sup>*1</sup>, Yi Chang<sup>2</sup>, Zijiang Yang<sup>1</sup>, Bjoern Schuller<sup>1</sup> </strong></p>
+<p style="line-height: 0.6;" align="center"><sup>1</sup>University of Augsburg, Augsburg, Germany</p>
+<p style="line-height: 0.6;" align="center"><sup>2</sup>Imperial College London, London, UK</p>
+<section><br />
+<div class="container"><center>
+<p><a href="https://arxiv.org/abs/">[Paper on ArXiv]</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/keikinn">[Code on GitHub]</a></p>
+</center></div>
+<h2 id="abstract">Abstract</h2>
+<p style="text-align: justify;">With the advancement of deep learning, breakthroughs have been achieved in recent years, leading to the creation of more natural-sounding synthetic speech. The adoption of Score-based Generative Models~(SGMs), also known as Diffusion Probabilistic Models~(DPMs), has gained traction due to their ability to produce high-quality synthesized neural speech in neural speech synthesis systems. In these models, the U-Net architecture and its variants have long dominated as the backbone of these models since its first successful adoption. In this research, we mainly focus on the neural network in diffusion-model-based Text-to-Speech~(TTS)~systems and propose the U-DiT architecture, exploring the potential of vision transformer architecture as the core component of the diffusion models in a TTS system, which is named U-DiT TTS system. The proposed system is a log-mel-spectrogram-based acoustic model and utilizes HiFi-GAN as the vocoder. The objective~(like frecht distance)~ results show that our DiT-TTS system achieves state-of-art performance on the single speak dataset LJSpeech.</p>
+<h2 id="note">Note</h2>
+<br />
+<figure>
+<p align="center"><img class="center" src="MainFigure" width="10%" /></p>
+<figcaption>
+<p style="text-align: justify;"><strong>Figure 1:</strong> Overview of</p>
+</figcaption>
+</figure>
+ <br />
+<h2 id="TTA Generation with Human Text Prompt">TTS</h2>
+<!--
+<p><em><font color="061E61">Acoustic Environment Control:</font></em></p>
+-->
+<table class="table" style="table-layout: fixed; word-break: break-word;" align="center">
+<thead>
+<tr>
+<td scope="col" width="33%">Speech 1</td>
+<td scope="col" width="33%">Speech 2</td>
+<td scope="col" width="33%">Speech 3</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td scope="row"><audio controls="controls">
+                      <source src="samples/1_text2audio/2_humantextprompt/A man is speaking under the water.wav" autoplay="autoplay" />Your browser does not support the audio element.
+                    </audio></td>
+<td><audio controls="controls">
+                      <source src="samples/1_text2audio/2_humantextprompt/Two space shuttles are fighting in the space.wav" autoplay="autoplay" />Your browser does not support the audio element.
+                    </audio></td>
+<td><audio controls="controls">
+                      <source src="samples/1_text2audio/2_humantextprompt/The sound of a steam engine.wav" autoplay="autoplay" />
+                      Your browser does not support the audio element.
+                    </audio></td>
+</tr>
+</tbody>
+</table>
+<div class="container">&nbsp;</div>
+</section>
+</article>
+</div>
