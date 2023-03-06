@@ -56,7 +56,7 @@
 <p style="line-height: 0.6;" align="center"><sup>2</sup>Imperial College London, London, UK</p>
 <section><br />
 <div class="container"><center>
-<p><a href="https://arxiv.org/abs/">[Paper on ArXiv]</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/keikinn">[Code on GitHub]</a></p>
+<p><a href="https://arxiv.org/abs/">[Paper on ArXiv]</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/EIHW/u-dit-tts/tree/main">[Code on GitHub]</a></p>
 </center></div>
 <h2 id="under" align="center"><img src="img/icons/noun-construction-2085884.png" alt="Image description" width="60px">Still Under Construction....</h2>
 <h2 id="abstract">Abstract</h2>
@@ -80,13 +80,14 @@
 <!--
 <p><em><font color="061E61">Acoustic Environment Control:</font></em></p>
 -->
+<!-- #1 -->
 <table class="table" style="table-layout: fixed; word-break: break-word;" align="center">
-	<p>&nbsp;&nbsp;&nbsp;&nbsp;1. original</p>
+	<p style="font-size: 80%; color:gray;">&nbsp;&nbsp;&nbsp;&nbsp;1. <i>The poorer prisoners were not in abject want, as in other prisons,</i></p>
 	<thead>
 	<tr>
 		<td scope="col" width="25%">Ground Truth</td>
-		<td scope="col" width="25%">U-DiT-S</td>
-		<td scope="col" width="25%">U-DiT-M</td>
+    <td scope="col" width="25%">Ground Truth mel</td>
+		<td scope="col" width="25%">U-DiT</td>
 		<td scope="col" width="25%">Grad-TTS</td>
 	</tr>
 	</thead>
@@ -94,30 +95,29 @@
 	<tbody>
 		<tr>
 			<td scope="row"><audio controls="controls" style="width: 100%;">
-			                      <source src="samples/demo.wav" autoplay="autoplay" />Your browser does not support the audio element.
+			                      <source src="./data/gt/LJ002-0261.wav" autoplay="autoplay" />Your browser does not support the audio element.
+			                    </audio></td>
+      <td><audio controls="controls" style="width: 100%;">
+                            <source src="./data/gt-mel/LJ002-0261.wav" autoplay="autoplay" />Your browser does not support the audio element.
+                          </audio></td>
+			<td><audio controls="controls" style="width: 100%;">
+			                      <source src="./data/s/LJ002-0261.wav" autoplay="autoplay" />Your browser does not support the audio element.
 			                    </audio></td>
 			<td><audio controls="controls" style="width: 100%;">
-			                      <source src="samples/demo.wav" autoplay="autoplay" />Your browser does not support the audio element.
-			                    </audio></td>
-			<td><audio controls="controls" style="width: 100%;">
-			                      <source src="samples/demo.wav" autoplay="autoplay" />
-			                      Your browser does not support the audio element.
-			                    </audio></td>
-			<td><audio controls="controls" style="width: 100%;">
-			                      <source src="samples/demo.wav" autoplay="autoplay" />
+			                      <source src="./data/g/LJ002-0261.wav" autoplay="autoplay" />
 			                      Your browser does not support the audio element.
 			                    </audio></td>
 		</tr>
 	</tbody>
 </table>
-
+<!-- #2 -->
 <table class="table" style="table-layout: fixed; word-break: break-word;" align="center">
-	<p>&nbsp;&nbsp;&nbsp;&nbsp;1. original</p>
+	<p style="font-size: 80%; color:gray;">&nbsp;&nbsp;&nbsp;&nbsp;2. <i>In eighteen fifty-five</i></p>
 	<thead>
 	<tr>
 		<td scope="col" width="25%">Ground Truth</td>
-		<td scope="col" width="25%">U-DiT-S</td>
-		<td scope="col" width="25%">U-DiT-M</td>
+    <td scope="col" width="25%">Ground Truth mel</td>
+		<td scope="col" width="25%">U-DiT</td>
 		<td scope="col" width="25%">Grad-TTS</td>
 	</tr>
 	</thead>
@@ -125,30 +125,29 @@
 	<tbody>
 		<tr>
 			<td scope="row"><audio controls="controls" style="width: 100%;">
-			                      <source src="samples/demo.wav" autoplay="autoplay" />Your browser does not support the audio element.
+			                      <source src="./data/gt/LJ018-0218.wav" autoplay="autoplay" />Your browser does not support the audio element.
+			                    </audio></td>
+      <td><audio controls="controls" style="width: 100%;">
+                            <source src="./data/gt-mel/LJ018-0218.wav" autoplay="autoplay" />Your browser does not support the audio element.
+                          </audio></td>
+			<td><audio controls="controls" style="width: 100%;">
+			                      <source src="./data/s/LJ018-0218.wav" autoplay="autoplay" />Your browser does not support the audio element.
 			                    </audio></td>
 			<td><audio controls="controls" style="width: 100%;">
-			                      <source src="samples/demo.wav" autoplay="autoplay" />Your browser does not support the audio element.
-			                    </audio></td>
-			<td><audio controls="controls" style="width: 100%;">
-			                      <source src="samples/demo.wav" autoplay="autoplay" />
-			                      Your browser does not support the audio element.
-			                    </audio></td>
-			<td><audio controls="controls" style="width: 100%;">
-			                      <source src="samples/demo.wav" autoplay="autoplay" />
+			                      <source src="./data/g/LJ018-0218.wav" autoplay="autoplay" />
 			                      Your browser does not support the audio element.
 			                    </audio></td>
 		</tr>
 	</tbody>
 </table>
-
+<!-- #3 -->
 <table class="table" style="table-layout: fixed; word-break: break-word;" align="center">
-	<p>&nbsp;&nbsp;&nbsp;&nbsp;1. original</p>
+	<p style="font-size: 80%; color:gray;">&nbsp;&nbsp;&nbsp;&nbsp;3. <i>seems necessary to produce the same result of justice and right conduct</i></p>
 	<thead>
 	<tr>
 		<td scope="col" width="25%">Ground Truth</td>
-		<td scope="col" width="25%">U-DiT-S</td>
-		<td scope="col" width="25%">U-DiT-M</td>
+    <td scope="col" width="25%">Ground Truth mel</td>
+		<td scope="col" width="25%">U-DiT</td>
 		<td scope="col" width="25%">Grad-TTS</td>
 	</tr>
 	</thead>
@@ -156,22 +155,50 @@
 	<tbody>
 		<tr>
 			<td scope="row"><audio controls="controls" style="width: 100%;">
-			                      <source src="samples/demo.wav" autoplay="autoplay" />Your browser does not support the audio element.
+			                      <source src="./data/gt/LJ021-0026.wav" autoplay="autoplay" />Your browser does not support the audio element.
+			                    </audio></td>
+      <td><audio controls="controls" style="width: 100%;">
+                            <source src="./data/gt-mel/LJ021-0026.wav" autoplay="autoplay" />Your browser does not support the audio element.
+                          </audio></td>
+			<td><audio controls="controls" style="width: 100%;">
+			                      <source src="./data/s/LJ021-0026.wav" autoplay="autoplay" />Your browser does not support the audio element.
 			                    </audio></td>
 			<td><audio controls="controls" style="width: 100%;">
-			                      <source src="samples/demo.wav" autoplay="autoplay" />Your browser does not support the audio element.
-			                    </audio></td>
-			<td><audio controls="controls" style="width: 100%;">
-			                      <source src="samples/demo.wav" autoplay="autoplay" />
-			                      Your browser does not support the audio element.
-			                    </audio></td>
-			<td><audio controls="controls" style="width: 100%;">
-			                      <source src="samples/demo.wav" autoplay="autoplay" />
+			                      <source src="./data/g/LJ021-0026.wav" autoplay="autoplay" />
 			                      Your browser does not support the audio element.
 			                    </audio></td>
 		</tr>
 	</tbody>
 </table>
+<!-- #4 -->
+<table class="table" style="table-layout: fixed; word-break: break-word;" align="center">
+  <p style="font-size: 80%; color:gray;">&nbsp;&nbsp;&nbsp;&nbsp;4. <i>And there may be only nine.</i></p>
+  <thead>
+  <tr>
+    <td scope="col" width="25%">Ground Truth</td>
+    <td scope="col" width="25%">Ground Truth mel</td>
+    <td scope="col" width="25%">U-DiT</td>
+    <td scope="col" width="25%">Grad-TTS</td>
+  </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td scope="row"><audio controls="controls" style="width: 100%;">
+                            <source src="./data/gt/LJ024-0019.wav" autoplay="autoplay" />Your browser does not support the audio element.
+                          </audio></td>
+      <td><audio controls="controls" style="width: 100%;">
+                            <source src="./data/gt-mel/LJ024-0019.wav" autoplay="autoplay" />Your browser does not support the audio element.
+                          </audio></td>
+      <td><audio controls="controls" style="width: 100%;">
+                            <source src="./data/s/LJ024-0019.wav" autoplay="autoplay" />Your browser does not support the audio element.
+                          </audio></td>
+      <td><audio controls="controls" style="width: 100%;">
+                            <source src="./data/g/LJ024-0019.wav" autoplay="autoplay" />
+                            Your browser does not support the audio element.
+                          </audio></td>
+    </tr>
+  </tbody>
 <div class="container">&nbsp;</div>
 </section>
 </article>
